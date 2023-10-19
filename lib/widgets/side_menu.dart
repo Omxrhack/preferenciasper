@@ -24,7 +24,7 @@ class SideMenu extends StatelessWidget {
           ),
           _ListTitleCustom(
             icon: Icons.people_outline,
-            title: 'People ',
+            title: 'People',
             routeName: 'people',
           )
         ],
@@ -59,6 +59,7 @@ class _ListTitleCustom extends StatelessWidget {
   }
 }
 
+//Este es la parte de arriba del menu desplegable (donde esta la imagen)
 class _DrawerCustom extends StatelessWidget {
   const _DrawerCustom({
     super.key,
